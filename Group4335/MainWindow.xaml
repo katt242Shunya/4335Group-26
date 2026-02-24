@@ -60,7 +60,8 @@
 				<TextBlock Grid.Row="8">9. Масленников Алексей Сергеевич</TextBlock>
 				<TextBlock Grid.Row="9">10. Мухамадиева Ралина Раилевна</TextBlock>
 				<TextBlock Grid.Row="10">11. Нигаматзянова Камиля Завдатовна</TextBlock>
-				<TextBlock Grid.Row="11">12. Никулина Екатерина Дмитриевна</TextBlock>
+				<TextBlock Grid.Row="11">12. Никулина Екатерина Дмитриевна
+				<Button Content="инфо" Click="AuthorInfoButton_Click" HorizontalAlignment="Center" VerticalAlignment="Center"/></TextBlock>
 				<TextBlock Grid.Row="12">13. Нуруллин Артур Марселевич</TextBlock>
 				<TextBlock Grid.Row="13">14. Попова Мария Алексеевна</TextBlock>
 				<TextBlock Grid.Row="14">15. Сагиров Марсель Шамилевич</TextBlock>
@@ -71,14 +72,8 @@
 				<TextBlock Grid.Row="19">20. Шаймарданов Адель Ахатович</TextBlock>
 
 				<!-- Места для добавления элементов управления (кнопок) -->
-				<Button Grid.Row="13" 
-                        Grid.Column="1" 
-                        Content="Информация" 
-                        Width="100"
-                        Margin="5"
-                        Click="Button1_Click"/>
 
-			</Grid>
+            </Grid>
 		</Grid>
 	</Grid>
 </Window>

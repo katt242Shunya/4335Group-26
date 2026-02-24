@@ -7,10 +7,10 @@ namespace Group4335
         public MainWindow()
             => InitializeComponent();
 
-        private void Button1_Click(object sender, RoutedEventArgs e)
+        private void AuthorInfoButton_Click(object sender, RoutedEventArgs e)
         {
-            Info infow = new Info();
-            infow.Show();
+            var infoWindow = new _4335_Nikulina(); 
+            infoWindow.ShowDialog(); 
         }
     }
 }
