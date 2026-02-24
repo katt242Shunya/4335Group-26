@@ -6,7 +6,11 @@
         xmlns:local="clr-namespace:Group4335"
         mc:Ignorable="d"
         Title="_4335_Nikulina" Height="450" Width="800">
-    <Grid>
+    <WrapPanel>
         <TextBox Text="Катя никулина, 18 years"></TextBox>
-    </Grid>
+        <StackPanel Margin="100">
+            <Button Content="Импорт данных" Click="ImportButton_Click" Width="120" Height="30" Margin="5"/>
+            <Button Content="Экспорт в Excel" Click="ExportButton_Click" Width="120" Height="30" Margin="5"/>
+        </StackPanel>
+    </WrapPanel>
 </Window>
